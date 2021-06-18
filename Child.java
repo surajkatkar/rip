@@ -2,7 +2,7 @@ class Parent
 {
 	Object method()
 	{
-		System.out.println("Parent");
+		System.out.println("Parent Constructor");
 		return null;
 	}
 }
@@ -10,7 +10,7 @@ public class Child extends Parent
 {
 	public String method()
 	{
-		System.out.println("Child");
+		System.out.println("Child Constructor");
 		return null;
 	}
 	public static void main (String[] args)
