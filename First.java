@@ -53,6 +53,7 @@ class First extends Frame
 		
 
 		Label pass=new Label("Password");
+		System.out.println("hello");
 		this.add(pass);
 		pass.setBounds(10,10,10,10);
 

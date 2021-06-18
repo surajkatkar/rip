@@ -21,5 +21,6 @@ public class Child extends Parent
 		c.method();
 		Parent p1=new Child();
 		p1.method();
+		System.out.println("");
 	}
 }
