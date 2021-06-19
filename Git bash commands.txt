@@ -1,0 +1,27 @@
+git init								-->creat repository with  by adding file .git 
+
+git status								-->showing status of all files is it untracked, is it modified, is it staged, is it commited
+git status -s 							-->showing status in short
+
+git add filename.type 					-->adding one file into stag stage means ready to commit
+git add -A								-->adding all files into stag stage
+
+git commit								-->commit all files which are staged, then press "i" enter commit message then press esc :wq 
+git commit -m "messagr for commit"		-->commit files with commit message 
+
+git checkout filename.type				-->if changes made in file by child saved it all code gone from file, we will retrieve last commited code from that file
+git checkout -f							-->if we want retrieve code of all modified files
+
+git log									-->showing log of all commit done by all
+git log -p -1							-->showing log of previous commit which we are spedifying in command -1 or -2 to any number
+
+git diff								--> showing changes of file
+git diff --staged                        --> showing changes in files at staging area
+
+ls                                    -->list of all files
+git rm --cached                       -->delete file from staged area and keep it in untracked files
+
+git add remote origin "address 
+of online repository"					-->adding online repository address as a origin for push and pull 
+git remote -v							-->showing push and fetch address if we already set 
+git push origin master					-->pushing master branch to online repository
